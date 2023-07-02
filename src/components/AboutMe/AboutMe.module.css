@@ -29,14 +29,6 @@
 
 }
 
-.image .working-image {
-    position: absolute;
-    width: 4.47rem;
-    bottom: 12.7rem;
-    right: 63.8rem;
-    z-index: 10;
-}
-
 .side-text h1 {
     color: #147efb;
     font-size: 1.18rem;
