@@ -11,12 +11,12 @@ const Navbar = () => {
       link: "#About",
     },
     {
-      name: "Projects",
-      link: "#Projects",
+      name: "Skills",
+      link: "#skills",
     },
     {
       name: "Contact",
-      link: "#Contact",
+      link: "#contact",
     },
   ];
   return (
