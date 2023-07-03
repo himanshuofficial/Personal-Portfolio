@@ -22,7 +22,9 @@ const ContactMe = () => {
             </span>
             <div className={classes.details}>
               <h3>Mail</h3>
-              <a href="mailto:himanshuofficial2000@gmail.com">himanshuofficial@gmail.com</a>
+              <a href="mailto:himanshuofficial2000@gmail.com">
+                himanshuofficial@gmail.com
+              </a>
             </div>
           </div>
         </div>
