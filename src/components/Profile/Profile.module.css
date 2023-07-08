@@ -1,172 +1,4 @@
-/* .hero {
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    position: relative;
-    width: 100%;
-}
 
-
-.content {
-    align-items: center;
-    display: flex;
-    gap: 10rem;
-    height: 65rem;
-    justify-content: center;
-    position: relative;
-}
-
-.hero-main {
-    align-items: center;
-    display: flex;
-    gap: 10rem;
-    justify-content: center;
-    position: relative;
-}
-
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    max-width: 50rem;
-    position: relative;
-    text-align: justify
-}
-
-.hero-text h1 {
-    color: #2d2e32;
-    font-size: 5.5rem;
-    line-height: 1.2;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.hero-text p {
-    color: #555555;
-    font-family: Mulish,sans-serif;
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.6;
-}
-
-.hero-text span {
-    cursor: pointer;
-    display: flex;
-    gap: 1.3rem;
-    margin: 2.5rem 0;
-}
-
-.image {
-    background-image: url("/src/components/Images/pic.jpg");
-    width: 35rem;
-    height: 35rem;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 3px solid #2d2e32;;
-  
-    @media (max-width: 500px) {
-      width: 28rem;
-      height: 28rem;
-    }
-  
-    animation: morph 8s ease-in-out infinite;
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    position: relative;
-    transition: all 1s ease-in-out; 
-  
-    @keyframes morph {
-      0% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-      }
-  
-      50% {
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-      }
-  
-      100% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-      }
-    } 
-}
-
-.hero-text span a {
-    color: #2d2e32;
-    font-size: 3rem;
-    i {
-        transition: all 0.2s;
-        &:hover {
-          color: #147efb;
-        }
-      }
-}
-
-.hero-text img {
-    height: 6rem;
-    position: absolute;
-    right: 13rem;
-    top: 8.7rem;
-    width: 6rem;
-    @media (max-width: 900px) {
-        right: 3rem;
-      }
-  
-      @media (max-width: 500px) {
-        top: 6.4rem;
-        right: 4rem;
-        width: 4.5rem;
-        height: 4.5rem;
-      }
-  
-      @media (max-width: 400px) {
-        right: 3rem;
-      }
-  
-      @media (max-width: 380px) {
-        right: 3rem;
-      }
-  
-      @media (max-width: 375px) {
-        right: 1.7rem;
-      }
-}
-
-.skills {
-    align-items: center;
-    bottom: 0;
-    color: #767676;
-    display: flex;
-    font-size: 1.7rem;
-    left: 0;
-    position: absolute;
-}
-.skills p {
-    border-right: 2px solid rgba(45,46,50,.5);
-    color: #2d2e32;
-    font-family: Mulish,sans-serif;
-    font-weight: 600;
-    margin-right: 7rem;
-    padding-right: 2rem;
-}
-
-.skills ul li img {
-    height: 3.4rem;
-    width: 3.4rem;
-}
-
-.skills ul {
-    list-style: none;
-    display: flex;
-    gap: 2.5rem;
-    flex-wrap: wrap;
-}
-
-.skills ul li { 
-    display: flex;
-    cursor: pointer;
-    background-color: #fff;
-    width: 6.5 54m;
-} */
 
 .home {
   display: flex;
@@ -174,29 +6,40 @@
   background-color: #f9f9f9;
   height: 100vh;
 }
+@media (max-width: 900px) {
+  .home {
+    padding: 29rem 3rem
+   }
+
+}
+@media (max-width: 500px) {
+  .home {
+    padding: 0rem 3rem;
+    height: auto;
+   }
+
+}
  
 .container {
   margin-top: 12rem;
   display: flex;
   padding: 0 4rem;
-
 }
+
 @media (min-width: 1900px) {
  .container {
-  margin-top: 19rem;
+  margin-top: 1rem;
  }
 }
-/* .hero-main {
-  align-items: center;
-  display: flex;
-  gap: 10rem;
-  justify-content: center;
-  position: relative;
-} */
+@media (max-width: 500px) {
+  .container {
+    flex-flow: column-reverse;
+    padding: 0rem 3rem;
+    gap: 2rem;
+    margin-top: 9rem;
+   }
+}
 
-/* .hero-text {
-  margin-left: 40px;
-} */
 
 .hero-text h1{
   color: #2d2e32;
@@ -204,6 +47,14 @@
   width: 76%;
   line-height: 1.2;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 500px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .hero-text span a {
@@ -226,13 +77,19 @@
 .hero-text p {
   color: #555;
   font-family: Mulish,sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.6;
   width: 70%;
   margin-top: -68px;  
 }
 
+@media (max-width: 500px) {
+  .hero-text p {
+    width: 100%;
+    text-align: center;
+  }
+}
 .hero-text span a i{
   color: #2d2e32;
   font-size: 2.5rem;
@@ -240,7 +97,13 @@
   &:hover {
     color: #147efb;
   }
+}
 
+@media (max-width: 500px) {
+  .hero-text span {
+    width: 100%;
+    margin-left: 30%;
+  }
 }
 
 .right-content img {
@@ -253,24 +116,25 @@
 
 
 .image{
-  background: #08aeea50  url('../Images/pic.jpg') no-repeat;
+  background: url('../Images/pic.jpg') no-repeat;
   width: 24.5rem;
   height: 24.5rem;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 2px solid black;
-
-  @media (max-width: 500px) {
-    width: 28rem;
-    height: 28rem;
-  }
-
+  border: 1px solid black;
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   position: relative;
   transition: all 1s ease-in-out;
 
+}
+
+@media (max-width: 500px) {
+  .image {
+    width: 17.64rem;
+    height: 17.64rem;
+  }
 }
 @keyframes morph {
   0% {
@@ -300,6 +164,16 @@
   width: 60px;
 }
 
+@media (max-width: 500px) {
+
+  .hero-text img {
+    top: -8rem;
+    right: -13rem;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}
+
 .skills {
   align-items: center;
   bottom: 0;
@@ -310,6 +184,15 @@
   position: relative;
   margin-top: 7rem;
 }
+
+@media (max-width: 500px) {
+  .skills {
+    flex-direction: column;
+    position: static;
+    margin-top: 28px;
+  }
+}
+
 .skills p {
   border-right: 2px solid rgba(45,46,50,.5);
   color: #2d2e32;
@@ -317,7 +200,20 @@
   font-weight: 600;
   margin-right: 4rem;
   padding-right: 1.7rem;
+
 }
+@media (max-width: 900px) {
+  .skills p {
+    border-bottom: 2px solid rgba(45,46,50,.5);
+    border-right: none;
+    margin-bottom: 1.6rem;
+    margin-right: 0;
+    padding-bottom: 1rem;
+    padding-right: 0;
+  }
+}
+
+
 
 .skills ul li img {
   height: 2.3rem;
@@ -339,8 +235,8 @@
      box-shadow: 0 0 10px rgba(0,0,0,.09); 
      cursor: pointer; 
      display: flex; 
-     height: 4.5rem;
+     height: 4rem;
     justify-content: center;
-    width: 4.5rem;
-
+    width: 4rem;
 }
+

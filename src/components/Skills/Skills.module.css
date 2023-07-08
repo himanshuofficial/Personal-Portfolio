@@ -17,6 +17,7 @@
     text-transform: uppercase;
 }
 
+
 .container h3 {
     color: #2d2e32;;
     font-family: Mulish,sans-serif;
@@ -25,6 +26,21 @@
     line-height: 1.5;
     margin-bottom: 4.2rem;
 }
+@media (max-width: 768px) {
+    .container h3{
+        text-align: center;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+        margin-bottom: -2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title h1{
+        text-align: center;
+    }
+}
+
 
 .skills {
     display: grid;
@@ -32,3 +48,18 @@
     grid-row-gap: 20px;
     grid-column-gap: 113px;
 }
+
+@media (max-width: 500px) {
+    .skills{
+        grid-template-columns: none;
+        padding: 5.5rem 0;
+        margin: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+    .skills-section{
+        padding: 5.5rem 0;
+    }
+  }
+

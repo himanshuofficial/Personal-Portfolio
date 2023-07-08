@@ -26,7 +26,7 @@ const Profile = () => {
         <div class={classes.container}>
           <div className={classes["left-content"]}>
             <div className={classes["hero-text"]}>
-              <h1>Front-End Javascript Developer</h1>
+              <h1>Front-End React Developer</h1>
               <img src={Waving} alt="waving_hand" />
               <p>
                 Hi, I'm Himanshu Sharma.

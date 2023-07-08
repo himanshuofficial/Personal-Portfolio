@@ -48,12 +48,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #fff;
   font-family: Poppins,sans-serif;
   position: relative;
+  overflow-x: hidden;
 }
 
 * {
@@ -61,3 +63,10 @@ body {
   padding: 0px;
 }
 
+.open-menu {
+  left: 0 !important;
+}
+
+.closed-menu {
+  left: -100% !important;
+}

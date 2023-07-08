@@ -1,9 +1,15 @@
-.details {
+.details{
     font-family: Poppins,sans-serif;
     display: flex;
     gap: 2rem;
     justify-content: space-around;
     margin-bottom: 7.2px;
+}
+
+@media (max-width: 500px) {
+    .details {
+        gap:1.2rem
+    }
 }
 
 .detail-box {
@@ -14,3 +20,10 @@
     text-align: center;
     padding: 0.8rem;
 }
+
+@media (max-width: 500px) {
+    .detail-box {
+        width: auto;
+        padding: 0.3rem;
+    }
+  }
