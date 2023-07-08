@@ -40,7 +40,7 @@ const Profile = () => {
                   aria-label="linkedin"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                  href="https://www.linkedin.com/in/coderhimanshu"
                 >
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
@@ -48,7 +48,7 @@ const Profile = () => {
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://github.com/stefvndev"
+                  href="https://github.com/himanshuofficial"
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
