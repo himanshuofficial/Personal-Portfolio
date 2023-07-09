@@ -5,11 +5,11 @@ const Skills = () => {
   const skills = [
     {
       name: "Javascript",
-      percentage: 45,
+      percentage: 80,
     },
     {
       name: "HTML",
-      percentage: 12,
+      percentage: 70,
     },
     {
       name: "CSS",
@@ -17,19 +17,19 @@ const Skills = () => {
     },
     {
       name: "React",
-      percentage: 45,
+      percentage: 70,
     },
     {
       name: "Angular",
-      percentage: 12,
+      percentage: 60,
     },
     {
       name: "Vue",
-      percentage: 34,
+      percentage: 60,
     },
     {
       name: "Python",
-      percentage: 34,
+      percentage: 50,
     },
   ];
 

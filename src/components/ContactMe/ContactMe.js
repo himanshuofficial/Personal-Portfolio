@@ -23,7 +23,7 @@ const ContactMe = () => {
             <div className={classes.details}>
               <h3>Mail</h3>
               <a href="mailto:himanshuofficial2000@gmail.com">
-                himanshuofficial@gmail.com
+                himanshuofficial2000@gmail.com
               </a>
             </div>
           </div>

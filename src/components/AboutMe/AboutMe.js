@@ -3,6 +3,7 @@ import image from "../Images/about-image.webp";
 import award from "../Images/award-solid-24.png";
 import brief from "../Images/case.png";
 import AboutBox from "./AboutBox";
+import support from "../Images/support.png";
 
 const details = [
   {
@@ -16,9 +17,9 @@ const details = [
     details: "4+ Projects",
   },
   {
-    name: "Completed",
-    icon: brief,
-    details: "4+ Projects",
+    name: "Available",
+    icon: support,
+    details: "24 X 7",
   },
 ];
 
