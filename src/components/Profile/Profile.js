@@ -5,6 +5,8 @@ import Angular from "../Images/angular.png";
 import Js from "../Images/javascript.png";
 import Waving from "../Images/waving.png";
 import react from "../Images/react.png"
+import Linkdin from "../Images/linkdin.png"
+import github from "../Images/github.png"
 
 const Profile = () => {
   const skills = [
@@ -47,7 +49,7 @@ const Profile = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/coderhimanshu"
                 >
-                  <i className="fa-brands fa-linkedin"></i>
+                  <img src={Linkdin} title="Linkedin" alt="linkdin" />
                 </a>
                 <a
                   aria-label="github"
@@ -55,7 +57,7 @@ const Profile = () => {
                   target="_blank"
                   href="https://github.com/himanshuofficial"
                 >
-                  <i className="fa-brands fa-github"></i>
+                  <img src={github} title="Linkedin" alt="linkdin" />
                 </a>
               </span>
             </div>
