@@ -34,7 +34,7 @@ const Navbar = () => {
     <Fragment>
       <nav>
         <h3 className={classes.logo} onClick={pageUp}>
-          Himanshu's Portfolio
+           Himanshu's Portfolio
         </h3>
         <ul>
           {navbarOptions.map((option) => {
@@ -46,7 +46,7 @@ const Navbar = () => {
           })}
           <li onClick={hamburgerMenu}>
             <i
-              className={`fa-solid fa-bars-staggered ${classes["mobile-menu"]}`}
+              className={`fa fa-navicon ${classes["mobile-menu"]}`}
             ></i>
           </li>
         </ul>
