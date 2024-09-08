@@ -9,7 +9,7 @@ const details = [
   {
     name: "Experience",
     icon: award,
-    details: "1+ Years",
+    details: "2+ Years",
   },
   {
     name: "Completed",
@@ -34,15 +34,15 @@ const AboutMe = () => {
           <h1>About Me</h1>
           <AboutBox details={details} />
           <p>
-            As a Associate Software Developer, I possess an impressive arsenal
+            As a  Software Developer, I possess an impressive arsenal
             of skills in HTML, CSS, JavaScript, React, vue. I excel in designing
             and maintaining react applications that offer a smooth user
             experience. My expertise lies in crafting dynamic, engaging
             interfaces through writing clean and optimized code and utilizing
             cutting-edge development tools and techniques.
           </p>
-          <button className={classes["button-40"]}>
-            <a download="Himanshu-Resume.pdf" href="">
+          <button className={classes[ "button-40"]}>
+            <a download="HimanshuResume.pdf" href="Himanshu-Resume.pdf">
               Download CV
               <svg
                 className={classes["button_icon"]}
