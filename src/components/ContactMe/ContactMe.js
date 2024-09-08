@@ -9,7 +9,7 @@ const ContactMe = () => {
         <div className={classes.icons}>
           <div className={classes.iconbox}>
             <span>
-              <i class="fa-solid fa-map-location-dot fa-bounce"></i>
+              <i class="fa fa-map-pin"></i>
             </span>
             <div className={classes.details}>
               <h3 className={classes.locationname}>Location</h3>
@@ -18,7 +18,7 @@ const ContactMe = () => {
           </div>
           <div className={classes.iconbox}>
             <span>
-              <i class="fa-solid fa-envelope-open-text fa-shake"></i>
+              <i class="fa fa-envelope-open-o"></i>
             </span>
             <div className={classes.details}>
               <h3>Mail</h3>
