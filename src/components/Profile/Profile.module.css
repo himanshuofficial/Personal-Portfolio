@@ -11,7 +11,7 @@
 }
 @media (max-width: 500px) {
   .home {
-    padding: 0rem 3rem;
+    padding: 0rem 0rem;
     height: auto;
   }
 }
@@ -147,7 +147,7 @@
   margin-top: 22px;
 }
 
-.hero-text img {
+.hero-text > img {
   height: 60px;
   position: relative;
   right: -17rem;
